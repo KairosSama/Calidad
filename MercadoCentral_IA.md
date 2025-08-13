@@ -36,6 +36,19 @@ Unificamos **noticias**, **sentimiento** y **series temporales** para proyectar 
 - [Plan](#plan)
 - [Demo](#demo)
 
----
 
-> 💡 **Nota:** En el HTML original hay secciones adicionales como noticias, gráficos, plan de negocio y footer que puedes extender en este `.md` replicando la estructura que desees documentar.
+flowchart TD
+    A[MercadoCentral IA] --> B[IA predictiva en tiempo real]
+    A --> C[Menú de navegación]
+    C --> C1[Producto]
+    C --> C2[Mercados]
+    C --> C3[Plan]
+    C --> C4[Demo]
+    A --> D[KPIs]
+    D --> D1[Precisión: 86.4%]
+    D --> D2[Latencia: 210 ms]
+    D --> D3[Activos: 32]
+    A --> E[Ticker en tiempo real]
+    E --> E1[NVDA: +1.2% ⬆]
+    E --> E2[USD/CLP: -0.4% ⬇]
+    E --> E3[BTC: ...]
